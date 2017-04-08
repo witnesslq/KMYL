@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/wangEditor.css">
+</head>
+<body>
+	<div id="div1"></div>
+	<p class="a">获取</p>
+	<script src="js/jquery-1.12.3.min.js"></script>
+	<script src="js/wangEditor.min.js"></script>
+	<script>
+		var editor = new wangEditor('div1');
+		editor.create();
+		$(".a").on('click', function(event) {
+			alert(editor.$txt.html());
+			/* Act on the event */
+		});
+		(function() {
+  'use strict';
+
+  // click events
+  // 添加点击事件
+  document.body.addEventListener('click', copy, true);
+
+  // event handler
+  // 添加时间处理方法
+  function copy(e) {
+
+    // find target element
+    // 搜索目标元素
+    var
+      t = e.target,
+      c = t.dataset.copytarget,
+      inp = (c ? document.querySelector(c) : null);
+
+    // is element selectable?
+    // 判断元素是否能被选中
+    if (inp &amp;amp;&amp;amp; inp.select) {
+
+      // select text
+      // 选择文本
+      inp.select();
+
+      try {
+        // copy text
+        // 复制文本
+        document.execCommand('copy');
+        inp.blur();
+      }
+      catch (err) {
+        alert('please press Ctrl/Cmd+C to copy');
+      }
+
+    }
+
+  }
+
+})();
+	</script>
+</body>
+</html>

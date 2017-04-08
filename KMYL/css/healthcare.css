@@ -1,0 +1,209 @@
+
+/*从上到下中间内容的六个板块*/
+.healthcare-1{
+	width: 100%;
+	min-width: 1200px;
+	height: 560px;
+	background-image: url(../images/healthcare/banner-1.jpg);
+	background-size: 100% 100%;
+}
+.bannerpic-p{
+	width: 1200px;
+	text-align: left;
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-left: 60px;
+}
+.bannerpic-p img{
+	width: 638px;
+	height: 278px;
+}
+/* -------------------------------- */
+.healthcare-2{
+	width: 1200px;
+	margin: 60px auto;
+}
+.healthcare-2-1{
+	font-size: 24px;
+}
+.healthcare-2-2{
+	font-size: 18px;
+	margin: 30px 0px;
+	color: #999999;
+}
+.healthcare-2-3{
+	display: inline-block;
+	width: 155px;
+	height: 220px;
+	font-size: 24px;
+	color: #333;
+	margin: 0px 85px;
+}
+.healthcare-2-3 img{
+	width: 162px;
+	height: 148px;
+	margin: 40px 0px;
+}
+/* -------------------------------- */
+.healthcare-3{
+	width: 100%;
+	min-width: 1200px;
+	height: 800px;
+	background-image: url(../images/healthcare/healthcare_0.png);
+	background-size: 100% 100%;
+}
+.healthcare-3-content{
+	width: 1200px;
+	margin: 0px auto;
+	padding: 120px 0px;
+}
+.healthcare-3-content img{
+	width: 781px;
+	height: 540px;
+}
+/* -------------------------------- */
+.healthcare-4{
+	width: 100%;
+	min-width: 1200px;
+}
+.healthcare-4-content{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 60px 0px;
+}
+.healthcare-4-content-top p{
+	display: inline-block;
+	width: 260px;
+	height: 221px;
+	position: relative;
+	margin: 60px 20px;
+}
+.healthcare-4-content-top p img{
+	width: 260px;
+	height: 221px;
+}
+.healthcare-4-content-top p span{
+	position: absolute;
+	top: 90px;
+	left: 80px;
+	font-size: 24px;
+	color: #fff;
+}
+.healthcare-4-content-botton .sty{
+	display: inline-block;
+}
+.healthcare-4-content-left{
+	width: 400px;
+	height: 580px;
+}
+.healthcare-4-content-left p{
+	display: inline-block;
+	width: 160px;
+	height: 220px;
+	margin:  0px 20px;
+	font-size: 24px;
+	color: #666;
+}
+.healthcare-4-content-left p img{
+	width: 160px;
+	height: 160px;
+	margin-bottom: 15px;
+}
+.healthcare-4-content-left .bottom{
+	margin-bottom: 140px;
+}
+.healthcare-4-content-right{
+	width: 774px;
+	height: 687px;
+	position: relative;
+}
+.healthcare-4-content-right img{
+	width: 774px;
+	height: 687px;
+	position: absolute;
+	top: 50px;
+	left: 60px;
+}
+/* -------------------------------- */
+.healthcare-5{
+	width: 100%;
+	height: 430px;
+	min-width: 1200px;
+	background-color: #f6f6f6;
+}
+.healthcare-5-content{
+	width: 1200px;
+	height: 350px;
+	padding-top: 80px;
+	margin: 0 auto;
+}
+.healthcare-5-content img{
+	width: 246px;
+	height: 348px;
+	margin-right: 45px;
+}
+.healthcare-5-content-p{
+	display: inline-block;
+	width: 350px;
+	height: 345px;
+	vertical-align: top;
+	text-align: left;
+	margin-left: 50px;
+}
+.healthcare-5-content-p .p1{
+	font-size: 30px;
+	color: #333;
+	margin-top: 70px;
+	margin-left: 20px;
+}
+.healthcare-5-content-p .p2{
+	font-size: 18px;
+	color: #666;
+	margin: 30px 0px;
+	margin-left: 20px;
+}
+.healthcare-5-content-p .p3{
+	font-size: 18px;
+	color: #666;
+	margin: 10px 0px;
+}
+/* -------------------------------- */
+.healthcare-6{
+	width: 100%;
+	height: 430px;
+	min-width: 1200px;
+}
+.healthcare-6-content{
+	width: 1200px;
+	height: 356px;
+	padding-top: 74px;
+	margin: 0 auto;
+}
+.healthcare-6-content img{
+	width: 245px;
+	height: 356px;
+	margin-left: 45px;
+}
+.healthcare-6-content-p{
+	display: inline-block;
+	width: 350px;
+	height: 356px;
+	vertical-align: top;
+	text-align: left;
+	margin-right: 70px;
+}
+.healthcare-6-content-p .p1{
+	font-size: 30px;
+	color: #333;
+	margin-top: 90px;
+}
+.healthcare-6-content-p .p2{
+	font-size: 18px;
+	color: #666;
+	margin: 30px 0px;
+}
+.healthcare-6-content-p .p3{
+	font-size: 18px;
+	color: #666;
+	margin: 10px 0px;
+}

@@ -1,0 +1,922 @@
+/* --------------------- */
+/* globe */
+/* --------------------- */
+.box{
+	width: 100%;
+}
+.header .logo{
+	width: 2.316667rem;
+	height: 0.5rem;
+}
+.header .nav{
+	margin: 0 0.1rem;
+}
+.header>*{
+	line-height: 0.958333rem;
+}
+.header .nav>li{
+	width: 1.0rem;
+	height: 1.016667rem;
+	border-top-width: 0.05rem;
+}
+.header .nav>li:hover,.header .nav>li.active{
+	border-top-width: 0.05rem;
+}
+
+.header .nav>li>a,.header .nav>li>p{
+	font-size:0.1rem;
+	line-height: 1.016667rem;
+}
+.header .nav>li:hover>ul{
+	width: 1.0rem;
+}
+.header .nav>li>ul>li{
+	line-height: 0.416667rem;
+}
+.header .nav>li>ul>li>a{
+	font-size: 0.116667rem;
+	line-height: 0.416667rem;
+}
+.header .language>a{
+	font-size:0.1rem;
+	line-height: 0.1rem;
+}
+.header .language>span{
+	font-size: 0.1rem;
+}
+/* -------------------------------- */
+.footer{
+	padding-top: 0.166667rem;
+}
+.footer>.box>div{
+	line-height: 0.416667rem;
+}
+.footer .box .link{
+	width: 1.041667rem;
+}
+.footer .box a,.footer .box p,.footer .box span{
+	font-size:0.116667rem;
+}
+.footer .box .contact>p>img{
+	width: 0.183333rem;
+	height: 0.2rem;
+}
+.footer .box .contact>p>span{
+	margin-left: 0.033333rem;
+	line-height: 0.2rem;
+}
+.footer .box .qrcode{
+	margin: 0 0.166667rem;
+	line-height:0.283333rem;
+}
+.footer>p.copyright{
+	font-size: 0.1rem;
+	line-height:0.416667rem;
+}
+.footer .box .qrcode img{
+	width: 1.616667rem;
+	height: 1.616667rem;
+}
+/* --------------------- */
+/* index */
+/* --------------------- */
+.banner .slides{
+	height: 4.5rem;
+}
+.banner .slides>li{
+	height: 4.75rem;
+	width: 100%;
+}
+.banner .slides>li>img{
+	width: 100%;
+	height: 100%;
+}
+.banner .slides>li>div.box>img{
+	margin: 0.833333rem 0 0 0.25rem;
+}
+.banner-direction-nav a{
+	width: 0.25rem;
+	height: 0.333333rem;
+}
+.banner-control-paging li a{
+	width: 0.091667rem;
+	height: 0.091667rem;
+}
+.banner-control-nav{
+	bottom: 0.166667rem;
+}
+.banner .slides>li>div.box>img{
+	width: 5.316667rem;
+	height: 2.316667rem;
+}
+.title{
+	font-size:0.15rem;
+	line-height:0.5rem;
+}
+.subtitle{
+	font-size:0.116667rem;
+	line-height: 0.333333rem;
+}
+.solution .sol-ul{
+	margin: 0.333333rem 0;
+}
+.solution .sol-ul>li{
+	width: auto;
+}
+.solution .sol-ul>li>img{
+	width: 1.05rem;
+	height: 1.05rem;
+}
+.solution .sol-ul>li>.sol-title{
+	font-size:0.15rem;
+	line-height:0.6rem;
+}
+.solution .sol-ul>li>.sol-subtitle{
+	font-size:0.1rem;
+	width: 2.416667rem;
+}
+/* ------------------------------ */
+.build{
+	padding: 0.166667rem 0;
+}
+.build>.box>*{
+	margin-left: 0.25rem;
+}
+.build .title{
+	margin-top: 0.458333rem;
+	line-height: 0.666667rem;
+}
+.build .details{
+	font-size: 0.1rem;
+	line-height:0.333333rem;
+}
+.build .build-ul>li{
+	width: 0.666667rem;
+	height: 1.0rem;
+	margin-right:0.25rem;
+}
+.build .build-ul>li>img{
+	width: 0.666667rem;
+	height: 0.666667rem;
+}
+.build .build-ul>li>p{
+	font-size:0.116667rem;
+	line-height: 0.333333rem;
+}
+/* ---------------------- */
+.denamic{
+	margin: 0.166667rem auto;
+	margin-bottom: 0.333333rem;
+}
+.denamic>.title{
+	margin-left: 0.45rem;
+}
+.denamic>.title>span{
+	width: 0.05rem;
+	height: 0.183333rem;
+}
+.denamic .sider>div{
+	width: 9.416667rem;
+	height: 2.8rem;
+	margin: 0 auto;
+}
+.denamic .sider-ul{
+	width: 100%;
+	height: 100%;
+}
+.denamic .sider-ul>li{
+	width: 2.95rem;
+	height: 2.641667rem;
+	padding-bottom:0.166667rem;
+	margin: 0 0.083333rem;
+}
+.denamic .sider-ul>li p{
+	line-height: 0.2rem;
+	margin-left: 0.166667rem;
+}
+.denamic .sider-ul>li p.title{
+	font-size:0.116667rem;
+	margin-top: 0.166667rem;
+}
+.denamic .sider-ul>li p.time{
+	font-size:0.1rem;
+}
+.denamic .sider-ul>li p.syn{
+	font-size:0.1rem;
+}
+.denamic .sider-ul>li img{
+	height: 1.75rem;
+}
+.denamic>.sider>img{
+	top: 1.333333rem;
+}
+.denamic>.sider>img.leftp{
+	left: 0.216667rem;
+}
+.denamic>.sider>img.rightp{
+	right: 0.216667rem;
+}
+/* --------------------- */
+/* news */
+/* --------------------- */
+.news-1{
+	width: 100%;
+	min-width: 10.0rem;
+	margin-bottom: 0.5rem;
+}
+.news-1 .banner{
+	width: 100%;
+}
+.news-1 .banner .news-banner{
+	height: 3.333333rem;
+}
+.news-1 .banner div{
+	width: 10.0rem;
+}
+.news-1 .banner div img{
+	width: 4.083333rem;
+	height: 1.108333rem;
+	left: 0.175rem;
+	top: 0.716667rem;
+}
+.news-1-content{
+	width: 10.0rem;
+	margin-top: -0.5rem;
+}
+/* -------------------------------- */
+.news-1-content-nav{
+	width: 2.0rem;
+	height: 3.333333rem;
+}
+.news-1-content-nav p{
+	width: 2.0rem;
+	height: 0.558333rem;
+	line-height: 0.558333rem;
+	font-size: 0.158333rem;
+}
+.news-1-content-nav .p1{
+	margin-top: 0.666667rem;
+}
+/* -------------------------------- */
+.news-1-content-show{
+	width: 7.75rem;
+	border: 1px solid #f2f2f2;
+	margin-left: 2.208333rem;
+	box-shadow: 0 0 0.166667rem #F0F0F0;
+}
+.news-1-content-show .title{
+	margin-left: 0.416667rem;
+	margin-top: 0.5rem;
+	font-size: 0.183333rem;
+}
+.news-1-content-show .show{
+	width: 7.1rem;
+	padding: 0.333333rem 0;
+	margin-left: 0.416667rem;
+	margin-right: 0;
+	border-bottom: 0.041667rem solid #DBDBDB;
+}
+.news-1-content-show .show .time{
+	width: 0.725rem;
+	height: 0.683333rem;
+}
+.news-1-content-show .show .time .day{
+	padding-top: 0.083333rem;
+	font-size: 0.2rem;
+}
+.news-1-content-show .show .time .year{
+	padding-top: 0.15rem;
+	font-size: 0.1rem;
+}
+.news-1-content-show .show .fuhao{
+	margin-left: 0.208333rem;
+	margin-top: 0.083333rem;
+	width: 0.066667rem;
+	height: 0.1rem;
+}
+.news-1-content-show .show .detail{
+	width: 3.666667rem;
+	margin: 0.041667rem 0.166667rem;
+}
+.news-1-content-show .show .detail .detail-title{
+	font-size: 0.133333rem;
+	margin-bottom: 0.083333rem;
+}
+.news-1-content-show .show .detail .detail-con{
+	font-size: 0.116667rem;
+	text-indent: 2em;
+	line-height: 0.208333rem;
+}
+.news-1-content-show .show .img{
+	width: 1.666667rem;
+	height: 1.125rem;
+	margin-top: 0.041667rem;
+	border: 0.083333rem solid white;
+	box-shadow: 0 0 0.166667rem #F0F0F0;
+}
+.news-1-content-show .show .img img{
+	width: 100%;
+	height: 100%;
+}
+/* -------------------------------- */
+.news-1-content-show .page{
+	width: 100%;
+	margin: 0.25rem 0;
+}
+.news-1-content-show .page p{
+	width: 0.291667rem;
+	height: 0.291667rem;
+	line-height: 0.291667rem;
+	margin: 0 0.083333rem;
+	font-size: 0.116667rem;
+}
+/* --------------------- */
+/* healthcare */
+/* --------------------- */
+.healthcare-1{
+	width: 100%;
+	min-width: 10.0rem;
+	height: 4.666667rem;
+}
+.bannerpic-p{
+	width: 10.0rem;
+	padding-top: 0.833333rem;
+	padding-left: 0.5rem;
+}
+.bannerpic-p img{
+	width: 5.316667rem;
+	height: 2.316667rem;
+}
+/* -------------------------------- */
+.healthcare-2{
+	width: 10.0rem;
+	margin: 0.5rem auto;
+}
+.healthcare-2-1{
+	font-size: 0.2rem;
+}
+.healthcare-2-2{
+	font-size: 0.15rem;
+	margin: 0.25rem 0;
+}
+.healthcare-2-3{
+	width: 1.291667rem;
+	height: 1.833333rem;
+	font-size: 0.2rem;
+	margin: 0 0.708333rem;
+}
+.healthcare-2-3 img{
+	width: 1.35rem;
+	height: 1.233333rem;
+	margin: 0.333333rem 0;
+}
+/* -------------------------------- */
+.healthcare-3{
+	min-width: 10.0rem;
+	height: 6.666667rem;
+}
+.healthcare-3-content{
+	width: 10.0rem;
+	margin: 0 auto;
+	padding: 1.0rem 0;
+}
+.healthcare-3-content img{
+	width: 6.508333rem;
+	height: 4.5rem;
+}
+/* -------------------------------- */
+.healthcare-4{
+	width: 100%;
+	min-width: 10.0rem;
+}
+.healthcare-4-content{
+	width: 10.0rem;
+	margin: 0 auto;
+	padding: 0.5rem 0;
+}
+.healthcare-4-content-top p{
+	width: 2.166667rem;
+	height: 1.841667rem;
+	margin: 0.5rem 0.1rem;
+}
+.healthcare-4-content-top p img{
+	width: 2.166667rem;
+	height: 1.841667rem;
+}
+.healthcare-4-content-top p span{
+	top: 0.75rem;
+	left: 0.666667rem;
+	font-size: 0.2rem;
+}
+.healthcare-4-content-left{
+	width: 3.333333rem;
+	height: 4.833333rem;
+}
+.healthcare-4-content-left p{
+	width: 1.333333rem;
+	height: 1.833333rem;
+	margin:  0;
+	font-size: 0.2rem;
+}
+.healthcare-4-content-left p img{
+	width: 1.333333rem;
+	height: 1.333333rem;
+	margin-bottom: 0.125rem;
+}
+.healthcare-4-content-left .bottom{
+	margin-bottom: 1.166667rem;
+}
+.healthcare-4-content-right{
+	width: 6.45rem;
+	height: 5.725rem;
+}
+.healthcare-4-content-right img{
+	width: 6.45rem;
+	height: 5.725rem;
+	top: 0.416667rem;
+	left: 0.5rem;
+}
+/* -------------------------------- */
+.healthcare-5{
+	width: 100%;
+	height: 3.583333rem;
+	min-width: 10.0rem;
+}
+.healthcare-5-content{
+	width: 10.0rem;
+	height: 2.916667rem;
+	padding-top: 0.666667rem;
+	margin: 0 auto;
+}
+.healthcare-5-content img{
+	width: 2.05rem;
+	height: 2.9rem;
+	margin-right: 0.375rem;
+}
+.healthcare-5-content-p{
+	width: 2.916667rem;
+	height: 2.875rem;
+	margin-left: 0.416667rem;
+}
+.healthcare-5-content-p .p1{
+	font-size: 0.25rem;
+	margin-top: 0.583333rem;
+	margin-left: 0.166667rem;
+}
+.healthcare-5-content-p .p2{
+	font-size: 0.15rem;
+	margin: 0.25rem 0;
+	margin-left: 0.166667rem;
+}
+.healthcare-5-content-p .p3{
+	font-size: 0.15rem;
+	margin: 0.083333rem 0;
+}
+/* -------------------------------- */
+.healthcare-6{
+	width: 100%;
+	height: 3.583333rem;
+	min-width: 10.0rem;
+}
+.healthcare-6-content{
+	width: 10.0rem;
+	height: 2.966667rem;
+	padding-top: 0.616667rem;
+	margin: 0 auto;
+}
+.healthcare-6-content img{
+	width: 2.041667rem;
+	height: 2.966667rem;
+	margin-left: 0.375rem;
+}
+.healthcare-6-content-p{
+	width: 2.916667rem;
+	height: 2.966667rem;
+	margin-right: 0.583333rem;
+}
+.healthcare-6-content-p .p1{
+	font-size: 0.25rem;
+	margin-top: 0.75rem;
+}
+.healthcare-6-content-p .p2{
+	font-size: 0.15rem;
+	margin: 0.25rem 0;
+}
+.healthcare-6-content-p .p3{
+	font-size: 0.15rem;
+	margin: 0.083333rem 0;
+}
+
+/* --------------------- */
+/* news-detail */
+/* --------------------- */
+
+/* --------------------- */
+/* tumormanagement */
+/* --------------------- */
+.tumormanagement-1{
+	width: 100%;
+	min-width: 10.0rem;
+	height: 4.758333rem;
+}
+/* -------------------------------- */
+.tumormanagement-2{
+	width: 100%;
+	min-width: 10.0rem;
+	height: 3.666667rem;
+}
+.tumormanagement-2-content{
+	width: 10.0rem;
+	height: 2.833333rem;
+	margin: 0 auto;
+}
+.tumormanagement-2-content .p1{
+	font-size: 0.225rem;
+	margin-top: 0.5rem;
+}
+.tumormanagement-2-content .p2{
+	font-size: 0.15rem;
+	margin: 0.166667rem 0;
+}
+.tumormanagement-2-content .p3{
+	font-size: 0.15rem;
+	width: 1.308333rem;
+	margin: 0 0.833333rem;
+	margin-top: 0.166667rem;
+}
+.tumormanagement-2-content .p3 img{
+	width: 1.308333rem;
+	height: 1.241667rem;
+	margin: 0.25rem 0;
+}
+/* -------------------------------- */
+.tumormanagement-3{
+	width: 100%;
+	min-width: 10.0rem;
+	height: 6.3rem;
+}
+.tumormanagement-3-content{
+	width: 10.0rem;
+	margin: 0 auto;
+}
+.tumormanagement-3-content .content-side{
+	width: 1.333333rem;
+	margin-top: 0.666667rem;
+}
+.tumormanagement-3-content .p1{
+	width: 1.333333rem;
+	font-size: 0.15rem;
+	margin-bottom: 0.666667rem;
+}
+.tumormanagement-3-content .p1 img{
+	width: 1.25rem;
+	height: 1.25rem;
+	margin-bottom: 0.25rem;
+}
+.tumormanagement-3-content .content-center{
+	width: 5.15rem;
+	margin: 0 0.666667rem;
+	margin-top: 0.416667rem;
+}
+.tumormanagement-3-content .p2{
+	width: 5.15rem;
+	font-size: 0.225rem;
+}
+.tumormanagement-3-content .p2 img{
+	width: 5.15rem;
+	height: 4.8rem;
+	margin-top: 0.333333rem;
+}
+/* -------------------------------- */
+.tumormanagement-4{
+	width: 100%;
+	min-width: 10.0rem;
+	height: 4.108333rem;
+}
+.tumormanagement-4-content{
+	width: 8.333333rem;
+	margin: 0 auto;
+	padding-top: 0.375rem;
+}
+.tumormanagement-4-content img{
+	width: 1.55rem;
+	height: 1.55rem;
+	margin: 0.083333rem 0.333333rem;
+}
+
+/* --------------------- */
+/* wisdom */
+/* --------------------- */
+
+.wisdom-1{
+	width: 100%;
+	min-width: 10.0rem;
+	height: 4.75rem;
+}
+/* -------------------------------- */
+.wisdom-2{
+	width: 100%;
+	min-width: 10.0rem;
+	height: 5.083333rem;
+}
+.wisdom-2-content{
+	width: 10.0rem;
+	margin: 0 auto;
+}
+.wisdom-2-content img{
+	width: 5.108333rem;
+	height: 4.25rem;
+	margin: 0.416667rem 0.166667rem;
+}
+.wisdom-2-content-p{
+	width: 4.0rem;
+	height: 4.25rem;
+	margin-top: 0.416667rem;
+}
+.wisdom-2-content-p .p1{
+	font-size: 0.233333rem;
+	margin-top: 1.208333rem;
+}
+.wisdom-2-content-p .p2{
+	font-size: 0.15rem;
+	margin: 0.333333rem 0;
+	line-height: 0.25rem;
+}
+.wisdom-2-content-p .p2 span{
+	font-size: 0.15rem;
+	margin: 0 0.041667rem;
+}
+/* -------------------------------- */
+.wisdom-3{
+	width: 100%;
+	min-width: 10.0rem;
+	height: 5.108333rem;
+}
+.wisdom-3-content{
+	width: 10.0rem;
+	height: 5.108333rem;
+	margin: 0 auto;
+}
+.wisdom-3-content img{
+	width: 6.116667rem;
+	height: 4.275rem;
+	margin: 0.416667rem 0.333333rem;
+}
+.wisdom-3-content-p{
+	width: 4.0rem;
+	height: 4.275rem;
+	top: 0.833333rem;
+	left: 0.583333rem;
+}
+.wisdom-3-content-p .p1{
+	font-size: 0.233333rem;
+	margin-top: 1.208333rem;
+}
+.wisdom-3-content-p .p2{
+	font-size: 0.15rem;
+	margin: 0.333333rem 0;
+	line-height: 0.25rem;
+}
+.wisdom-3-content-p .p2 span{
+	font-size: 0.15rem;
+	margin: 0 0.041667rem;
+}
+/* -------------------------------- */
+.wisdom-4{
+	width: 100%;
+	min-width: 10.0rem;
+	height: 5.225rem;
+}
+.wisdom-4-content{
+	width: 10.0rem;
+	margin: 0 auto;
+}
+.wisdom-4-content img{
+	width: 3.141667rem;
+	height: 4.391667rem;
+	margin: 0.416667rem 0;
+	margin-left: 0.416667rem;
+}
+.wisdom-4-content-p{
+	width: 4.25rem;
+	height: 4.391667rem;
+	margin-top: 0.416667rem;
+	margin-left: 1.25rem;
+}
+.wisdom-4-content-p .p1{
+	font-size: 0.233333rem;
+	margin-top: 1.541667rem;
+}
+.wisdom-4-content-p .p2{
+	font-size: 0.15rem;
+	margin: 0.333333rem 0;
+	line-height: 0.25rem;
+}
+/* -------------------------------- */
+.wisdom-5{
+	width: 100%;
+	min-width: 10.0rem;
+	height: 5.025rem;
+}
+.wisdom-5-content{
+	width: 10.0rem;
+	height: 5.025rem;
+	margin: 0 auto;
+}
+.wisdom-5-content img{
+	width: 5.133333rem;
+	height: 4.191667rem;
+	margin: 0.416667rem 0.333333rem;
+}
+.wisdom-5-content-p{
+	width: 2.833333rem;
+	height: 4.191667rem;
+	margin-top: 0.333333rem;
+}
+.wisdom-5-content-p .p1{
+	font-size: 0.233333rem;
+	margin-top: 1.416667rem;
+}
+.wisdom-5-content-p .p2{
+	font-size: 0.15rem;
+	margin: 0.333333rem 0;
+	line-height: 0.25rem;
+}
+/* -------------------------------- */
+.wisdom-6{
+	min-width: 10.0rem;
+	height: 5.241667rem;
+}
+.wisdom-6-content{
+	width: 10.0rem;
+	margin: 0 auto;
+}
+.wisdom-6-content img{
+	width: 4.091667rem;
+	height: 4.408333rem;
+	margin: 0.416667rem 0;
+}
+.wisdom-6-content-p{
+	width: 3.333333rem;
+	height: 4.391667rem;
+	margin-top: 0.416667rem;
+	margin-left: 1.25rem;
+}
+.wisdom-6-content-p .p1{
+	font-size: 0.233333rem;
+	margin-top: 1.75rem;
+}
+.wisdom-6-content-p .p2{
+	font-size: 0.15rem;
+	margin: 0.333333rem 0;
+	line-height: 0.25rem;
+}
+
+/* --------------------- */
+/* about */
+/* --------------------- */
+.about-banner{
+	width: 100%;
+	height: 3.333333rem;
+}
+.about-banner>img{
+	width: 100%;
+	height: 100%;
+}
+.box>.title{
+	font-size:0.166667rem;
+	line-height:0.5rem;
+}
+.slider>.line{
+	width: 0.833333rem;
+	height: 1px;
+}
+.slider>.point{
+	width: 0.066667rem;
+	height: 0.066667rem;
+	margin: 0 0.133333rem;
+}
+.subtitle{
+	font-size: 0.1rem;
+	line-height:0.333333rem;
+}
+.about .details{
+	font-size: 0.116667rem;
+	text-indent: 0.2rem;
+	margin: 0.1rem 0;
+	line-height: 0.2rem;
+}
+.about div.clearfix{
+	padding: 0.25rem 0;
+}
+.about div.clearfix img{
+	width: 3.933333rem;
+	height: 2.741667rem;
+	padding:0.066667rem;
+	box-shadow: 0 0 0.083333rem #797979;
+	box-shadow: 0 0 0.083333rem rgba(121, 121, 121, .35);
+	margin-right: 0.25rem;
+}
+.about div.clearfix p.title{
+	font-size:0.15rem;
+	line-height:0.416667rem;
+}
+/* ----------------------------- */
+.contact{
+	padding-bottom: 0.25rem;
+}
+.contact li{
+	width: 8.833333rem;
+	height: 2.35rem;
+	margin:0.125rem auto;
+	box-shadow: 0 0 0.083333rem #aeaeae;
+	box-shadow: 0 0 0.083333rem rgba(174, 174, 174, .35);
+}
+.contact li>img{
+	width: 4.0rem;
+	height: 100%;
+	margin-right:0.383333rem;
+}
+.contact li>.title{
+	font-size:0.116667rem;
+	line-height: 0.6rem;
+}
+.contact li>.details{
+	font-size: 0.1rem;
+	line-height: 0.266667rem;
+}
+/* ----------------------------- */
+.value{
+	padding:0.1rem;
+}
+.value .title,.rec .title{
+	font-size:0.133333rem;
+}
+.value .details{
+	width: 8.333333rem;
+	height: 1.916667rem;
+}
+.value .details p{
+	width: 4.083333rem;
+	font-size:0.1rem;
+	line-height:0.25rem;
+	margin-left: 0.166667rem;
+}
+.value .details p:first-child{
+	margin-top:0.2rem;
+}
+.value .details p>span{
+	width: 0.075rem;
+	height: 0.075rem;
+	margin-right: 0.066667rem;
+}
+.value .details img{
+	width: 4.083333rem;
+	height: 100%;
+}
+.rec a{
+	width: 3.108333rem;
+	height: 1.35rem;
+	margin:0.183333rem;
+}
+.rec a img{
+	width: 100%;
+	height: 100%;
+}
+.rec a:hover{
+	box-shadow: 0 0 0.083333rem #a7a7a7;
+	box-shadow: 0 0 0.083333rem rgba(167, 167, 167, .35);
+}
+.demand .block{
+	width: 4.666667rem;
+	padding: 0.166667rem;
+	padding-bottom: 0.25rem;
+}
+.demand .block p.title{
+	font-size:0.116667rem;
+	line-height: 0.416667rem;
+}
+.demand .block p.title>span{
+	width: 0.041667rem;
+	height: 0.133333rem;
+	margin-right: 0.066667rem;
+}
+.demand .block p.subtitle,.demand .block p.details{
+	font-size:0.1rem;
+}
+.welfare{
+	padding: 0.25rem 0;
+}
+.welfare img{
+	width: 2.583333rem;
+	height: 2.583333rem;
+	margin:0.075rem;
+}
+
+/* --------------------- */
+/* contact */
+/* --------------------- */
+
+/* --------------------- */
+/* join */
+/* --------------------- */

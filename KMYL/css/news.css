@@ -1,0 +1,212 @@
+.news-1{
+	width: 100%;
+	min-width: 1200px;
+	margin-bottom: 60px;
+}
+.news-1 .banner{
+	position: relative;
+	width: 100%;
+	z-index: 0;
+}
+.news-1 .banner .news-banner{
+	height: 400px;
+}
+.news-1 .banner div{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 1200px;
+	margin: 0 auto;
+}
+.news-1 .banner div img{
+	position: absolute;
+	width: 490px;
+	height: 133px;
+	left: 21px;
+	top: 86px;
+}
+.news-1-content{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: -60px;
+	position: relative;
+	z-index: 2;
+}
+/* -------------------------------- */
+.news-1-content-nav{
+	float: left;
+	width: 240px;
+	height: 400px;
+	background-image: url(../images/news/news2_03.png);
+	background-size: 100% 100%;
+}
+.news-1-content-nav p{
+	width: 240px;
+	height: 67px;
+	line-height: 67px;
+	font-size: 19px;
+	color: #fff;
+	cursor: pointer;
+}
+.news-1-content-nav p:hover{
+	color: #BFBFBF;
+}
+.news-1-content-nav .p1{
+	margin-top: 80px;
+}
+.news-1-content-nav .addbac{
+	background-image: url(../images/news/news3_03.png);
+	background-size: 100% 100%;
+	color: #2888e2;
+}
+/* -------------------------------- */
+.news-1-content-show{
+	width: 930px;
+	background-color: #fff;
+	border: 1px solid #f2f2f2;
+	margin-left: 265px;
+	box-shadow: 0px 0 20px #F0F0F0;
+}
+.news-1-content-show .title{
+	text-align: left;
+	margin-left: 50px;
+	margin-top: 60px;
+	font-size: 22px;
+	color: #000;
+	font-family: "JLX";
+}
+.news-1-content-show .show{
+	width: 820px;
+	text-align: left;
+	padding: 40px 0px;
+	margin-left: 50px;
+	border-bottom: 5px solid #DBDBDB;
+	font-size: 16px;
+
+}
+.news-1-content-show .show .time{
+	display: inline-block;
+	width: 87px;
+	height: 82px;
+	background-image: url(../images/news/news4_03.png);
+	background-size: 100% 100%;
+	vertical-align: top;
+}
+.news-1-content-show .show .time .day{
+	text-align: center;
+	padding-top: 10px;
+	font-size: 24px;
+	color: #000;
+}
+.news-1-content-show .show .time .year{
+	text-align: center;
+	padding-top: 18px;
+	font-size: 12px;
+	color: #fff;
+}
+.news-1-content-show .show .fuhao{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 25px;
+	margin-top: 10px;
+	width: 8px;
+	height: 12px;
+}
+.news-1-content-show .show .fuhao img{
+	width: 8px;
+	height: 12px;
+}
+.news-1-content-show .show .detail{
+	display: inline-block;
+	width: 420px;
+	margin: 5px 20px;
+	vertical-align: top;
+}
+.news-1-content-show .show .detail .detail-title{
+	font-size: 16px;
+	color: #2888e2;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.news-1-content-show .show .detail .detail-con{
+	font-size: 14px;
+	color: #656565;
+	text-indent: 2em;
+	line-height: 25px;
+}
+.news-1-content-show .show .img{
+	display: inline-block;
+	width: 200px;
+	height: 135px;
+	margin-top: 5px;
+	border: 10px solid white;
+	box-shadow: 0px 0 20px #F0F0F0;
+}
+.news-1-content-show .show .img img{
+	width: 201px;
+	height: 134px;
+}
+/* -------------------------------- */
+.news-1-content-show .page{
+	/*position: absolute;
+	left: 0;
+	bottom: -100px;*/
+	width: 100%;
+	margin: 30px 0px;
+	font-size: 16px;
+}
+.news-1-content-show .page p{
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	display: inline-block;
+	cursor: pointer;
+	margin: 0px 10px;
+	vertical-align: middle;
+}
+.news-1-content-show .page .num{
+	background-color: #2888e2;
+	color: #fff;
+}
+
+/* -------------------------------- */
+.news-1-content-detail-show{
+	width: 930px;
+	background-color: #fff;
+	border: 1px solid #f2f2f2;
+	margin-left: 265px;
+	box-shadow: 0px 0 20px #F0F0F0;
+	text-align: left;
+	margin-bottom: 50px;
+	font-size: 16px;
+	min-height: 500px;
+}
+.news-1-content-detail-show .detail-title{
+	text-align: left;
+	margin-left: 50px;
+	margin-top: 60px;
+	font-size: 22px;
+	color: #000;
+	display: inline-block;
+}
+.news-1-content-detail-show .detail-time{
+	display: inline-block;
+	font-size: 16px;
+	color: #666;
+	margin-left: 30px;
+
+}
+.news-1-content-detail-show .detail-show{
+	width: 820px;
+	text-align: left;
+	padding: 40px 0px;
+	margin-left: 80px;
+}
+.news-1-content-detail-show .detail-show img{
+	width: 800px;
+	height: 530px;
+	margin: 30px auto;
+}
+

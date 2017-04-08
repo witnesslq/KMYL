@@ -1,0 +1,252 @@
+/*
+ * jQuery bannerSlider v2.2.0
+ * http://www.woothemes.com/bannerslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+
+/* Browser Resets
+*********************************/
+.banner-container a:active, .banner a:active, .banner-container a:focus, .banner a:focus {
+	outline: none;
+}
+.slides, .banner-control-nav, .banner-direction-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* bannerSlider Necessary Styles
+*********************************/
+.banner {
+	margin: 0;
+	padding: 0;
+}
+.banner .slides > li {
+	display: none;
+	-webkit-backface-visibility: hidden;
+}
+
+/* Hide the slides before the JS is loaded. Avoids image jumping */
+.banner .slides img {
+
+	/*width: 100%;*/
+	display: block;
+}
+.banner-pauseplay span {
+	text-transform: capitalize;
+}
+
+/* Clearfix for the .slides element */
+.slides:after {
+	content: "\0020";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+html[xmlns] .slides {
+	display: block;
+}
+* html .slides {
+	height: 1%;
+}
+
+/* No JavaScript Fallback */
+
+/* If you are not using another script, such as Modernizr, make sure you
+* include js that eliminates this class on page load */
+.no-js .slides > li:first-child {
+	display: block;
+}
+
+/* bannerSlider Default Theme
+*********************************/
+
+/*名字注意*/
+.banner {
+	margin: 0;
+	background: #fff;
+	position: relative;
+	zoom: 1;
+}
+.banner-viewport {
+	max-height: 2000px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.loading .banner-viewport {
+	max-height: 300px;
+}
+.banner .slides {
+	zoom: 1;
+	height: 540px;	/*具体情况具体使用，有bug*/
+}
+.banner .slides>li {
+	height: 100% !important;	/*具体情况具体使用，有bug*/
+}
+@media (min-width:1500px) {
+	.banner .slides {
+		height: 640px;
+	}
+}
+.carousel li {
+	margin-right: 5px;
+}
+
+/* Direction Nav */
+.banner-direction-nav {
+	*height: 0;
+}
+.banner-direction-nav a {
+	text-decoration: none;
+	display: block;
+	width: 30px;
+	height: 40px;
+	margin: -20px 0 0;
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	overflow: hidden;
+	opacity: 0;
+	cursor: pointer;
+	color: rgba(0, 0, 0, 0.8);
+	text-indent: -999em
+}
+.banner-direction-nav .banner-prev {
+	background-image: url(../images/banner_l.png);
+	background-repeat: round;
+	background-size: 100% 100%;
+	background-position: 0 0
+}
+.banner-direction-nav .banner-next {
+	background-image: url(../images/banner_r.png);
+	background-repeat: round;
+	background-size: 100% 100%;
+	background-position: 0 0
+}
+.banner:hover .banner-prev {
+	opacity: 0.7;
+	left: 140px;
+}
+.banner:hover .banner-next {
+	opacity: 0.7;
+	right: 140px;
+}
+.banner:hover .banner-next:hover, .banner:hover .banner-prev:hover {
+	opacity: 1;
+}
+.banner-direction-nav .banner-disabled {
+	opacity: 0 !important;
+	filter: alpha(opacity=0);
+	cursor: default;
+}
+
+/* Pause/Play */
+.banner-pauseplay a {
+	display: block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	bottom: 5px;
+	left: 10px;
+	opacity: 0.8;
+	z-index: 10;
+	overflow: hidden;
+	cursor: pointer;
+	color: #000;
+	background: #ddd
+}
+.banner-pauseplay a:before {
+	font-family: "bannerslider-icon";
+	font-size: 20px;
+	display: inline-block;
+	content: '\f004';
+}
+.banner-pauseplay a:hover {
+	opacity: 1;
+}
+.banner-pauseplay a.banner-play:before {
+	content: '\f003';
+}
+
+/* Control Nav */
+.banner-control-nav {
+	width: 100%;
+	position: absolute;
+	bottom: 20px;
+	text-align: center;
+	z-index: 9990;
+}
+.banner-control-nav li {
+	margin: 0 6px;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+.banner-control-paging li a {
+	width: 11px;
+	height: 11px;
+	display: block;
+	background: #666;
+	background: rgba(156, 156, 156, 0.5);
+	cursor: pointer;
+	text-indent: -9999px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+	-o-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.banner-control-paging li a:hover {
+	background: #333;
+	background: rgba(39, 136, 226, 1);
+}
+.banner-control-paging li a.banner-active {
+	background: #000;
+	background: rgba(39, 136, 226, 1);
+	cursor: default;
+}
+.banner-control-thumbs {
+	margin: 5px 0 0;
+	position: static;
+	overflow: hidden;
+}
+.banner-control-thumbs li {
+	width: 25%;
+	float: left;
+	margin: 0;
+}
+.banner-control-thumbs img {
+	width: 100%;
+	display: block;
+	opacity: .7;
+	cursor: pointer;
+}
+.banner-control-thumbs img:hover {
+	opacity: 1;
+}
+.banner-control-thumbs .banner-active {
+	opacity: 1;
+	cursor: default;
+}
+@media screen and (max-width:860px) {
+	.banner-direction-nav .banner-prev {
+		opacity: 1;
+		left: 10px;
+	}
+	.banner-direction-nav .banner-next {
+		opacity: 1;
+		right: 10px;
+	}
+}

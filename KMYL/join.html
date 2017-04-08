@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>康美医疗-首页</title>
+	<link rel="stylesheet" href="css/globe.css">
+	<link rel="stylesheet" href="css/about.css">
+	<script>
+		(function () {
+		if (navigator.userAgent.match(/mobile/i)) {
+		var e="@charset \"utf-8\";html{color:#000;background:#fff;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html *{outline:0;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}html,body{font-family:sans-serif}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}input,select,textarea{font-size:100%}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}abbr,acronym{border:0;font-variant:normal}del{text-decoration:line-through}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:500}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:500}q:before,q:after{content:''}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}a:hover{text-decoration:underline}ins,a{text-decoration:none}",d=document.createElement("style");if(document.getElementsByTagName("head")[0].appendChild(d),d.styleSheet){d.styleSheet.disabled||(d.styleSheet.cssText=e)}else{try{d.innerHTML=e}catch(f){d.innerText=e}}
+		var cssurl="css/mobsize.css",
+			head=document.getElementsByTagName("head")[0],
+			linktag=document.createElement("link");
+			linktag.href=cssurl;
+			linktag.setAttribute("rel","stylesheet");
+		head.appendChild(linktag);
+		document.createElement("style");
+		!function(N,M){function L(){var a=I.getBoundingClientRect().width;a/F>540&&(a=540*F);var d=a/10;I.style.fontSize=d+"px",D.rem=N.rem=d}var K,J=N.document,I=J.documentElement,H=J.querySelector('meta[name="viewport"]'),G=J.querySelector('meta[name="flexible"]'),F=0,E=0,D=M.flexible||(M.flexible={});if(H){console.warn("将根据已有的meta标签来设置缩放比例");var C=H.getAttribute("content").match(/initial\-scale=([\d\.]+)/);C&&(E=parseFloat(C[1]),F=parseInt(1/E))}else{if(G){var B=G.getAttribute("content");if(B){var A=B.match(/initial\-dpr=([\d\.]+)/),z=B.match(/maximum\-dpr=([\d\.]+)/);A&&(F=parseFloat(A[1]),E=parseFloat((1/F).toFixed(2))),z&&(F=parseFloat(z[1]),E=parseFloat((1/F).toFixed(2)))}}}if(!F&&!E){var y=N.navigator.userAgent,x=(!!y.match(/android/gi),!!y.match(/iphone/gi)),w=x&&!!y.match(/OS 9_3/),v=N.devicePixelRatio;F=x&&!w?v>=3&&(!F||F>=3)?3:v>=2&&(!F||F>=2)?2:1:1,E=1/F}if(I.setAttribute("data-dpr",F),!H){if(H=J.createElement("meta"),H.setAttribute("name","viewport"),H.setAttribute("content","initial-scale="+E+", maximum-scale="+E+", minimum-scale="+E+", user-scalable=no"),I.firstElementChild){I.firstElementChild.appendChild(H)}else{var u=J.createElement("div");u.appendChild(H),J.write(u.innerHTML)}}N.addEventListener("resize",function(){clearTimeout(K),K=setTimeout(L,300)},!1),N.addEventListener("pageshow",function(b){b.persisted&&(clearTimeout(K),K=setTimeout(L,300))},!1),"complete"===J.readyState?J.body.style.fontSize=12*F+"px":J.addEventListener("DOMContentLoaded",function(){J.body.style.fontSize=12*F+"px"},!1),L(),D.dpr=N.dpr=F,D.refreshRem=L,D.rem2px=function(d){var c=parseFloat(d)*this.rem;return"string"==typeof d&&d.match(/rem$/)&&(c+="px"),c},D.px2rem=function(d){var c=parseFloat(d)/this.rem;return"string"==typeof d&&d.match(/px$/)&&(c+="rem"),c}}(window,window.lib||(window.lib={}));}
+		})()
+	</script>
+</head>
+<body>
+	<div class="header box">
+		<img src="images/logo.png" alt="" class="logo">
+		<ul class="nav">
+			<li>
+				<a href="index.html">首页</a>
+			</li>
+			<li><p>产品中心</p>
+				<ul>
+					<li>
+						<a href="healthcare.html">健康医疗</a>
+					</li>
+					<li>
+						<a href="wisdom.html">智慧养老</a>
+					</li>
+					<li>
+						<a href="tumormanagement.html">肿瘤管理</a>
+					</li>
+				</ul>
+			</li>
+			<li><a href="news.html">新闻动态</a>
+			</li>
+			<li><a href="#">合作平台</a>
+			</li>
+			<li class="active"><p>关于我们</p>
+				<ul>
+					<li>
+						<a href="about.html">关于我们</a>
+					</li>
+					<li>
+						<a href="join.html">加入我们</a>
+					</li>
+					<li>
+						<a href="contact.html">联系我们</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		<p class="language"><a href="index.html" class="active">中文</a><span>|</span><a href="index-en.html">English</a></p>
+	</div>
+	<div class="banner"><img src="images/about/join-banner.jpg" alt=""></div>
+	<div class="contact box">
+		<p class="title">加入我们</p>
+		<div class="slider">
+			<span class="line"></span>
+			<span class="point"></span>
+			<span class="line"></span>
+		</div>
+		<p class="subtitle">我们在创新无限的激情，探索与收获</p>
+	</div>
+	<div class="value box">
+		<p class="title">核心价值观</p>
+		<div class="details clearfix">
+			<p><span></span>正直、诚实</p>
+			<p><span></span>对他人包容、尊重，并帮助他们做的更好</p>
+			<p><span></span>对客户合作伙伴和技术充满激情</p>
+			<p><span></span>愿意接受大的挑战并克服它们</p>
+			<p><span></span>自我约束、自省、个人提高</p>
+			<p><span></span>对承诺和结果负责，对合作伙伴、股东、客户和员工负责</p>
+			<img src="images/about/join-value.jpg" alt="" class="">
+		</div>
+	</div>
+	<div class="rec box">
+		<p class="title">在线招聘</p>
+		<a href="#" class="transition"><img src="images/about/join-recruitment-1.jpg" alt=""></a>
+		<a href="#" class="transition"><img src="images/about/join-recruitment-2.jpg" alt=""></a>
+
+	</div>
+	<div class="demand">
+		<div class="box">
+			<div class="block">
+				<p class="title"><span></span>游戏开发工程师</p>
+				<p class="subtitle">【岗位职责】</p>
+				<p class="details">1、负责手机游戏客户端功能开发；</p>
+				<p class="details">2、负责UI的框架设计和开发、维护；</p>
+				<p class="details">3、负责客户端性能优化和体验优化；</p>
+				<p class="details">4、负责手游研发工具的开发和维护；</p>
+				<p class="details">5、完成上级领导安排的其他工作。</p>
+				<p class="subtitle">【任职要求】</p>
+				<p class="details">1、本科及以上学历（能力优秀者可以放宽）；</p>
+				<p class="details">2、3年以上手机游戏U3D或cocos2d-X开发经验，拥有完整的上线的手游开发经验优先；</p>
+				<p class="details">3、熟悉c++及C#、了解常用的脚本语言，熟悉网络协议；</p>
+				<p class="details">4、熟练使用cocos2d-X或者Unity3D引擎架构设计，制作场景、UI及脚本，精通UGUI/NGUI等；</p>
+				<p class="details">5、熟练掌握android和ios系统者优先；</p>
+				<p class="details">6、具有良好的分析解决问题能力，能独立承担任务，有系统进度把控能力；</p>
+				<p class="details">7、热爱游戏事业，富于团队精神和敬业精神。</p>
+			</div>
+			<div class="block">
+				<p class="title"><span></span>游戏开发工程师</p>
+				<p class="subtitle">【岗位职责】</p>
+				<p class="details">1、负责手机游戏客户端功能开发；</p>
+				<p class="details">2、负责UI的框架设计和开发、维护；</p>
+				<p class="details">3、负责客户端性能优化和体验优化；</p>
+				<p class="details">4、负责手游研发工具的开发和维护；</p>
+				<p class="details">5、完成上级领导安排的其他工作。</p>
+				<p class="subtitle">【任职要求】</p>
+				<p class="details">1、本科及以上学历（能力优秀者可以放宽）；</p>
+				<p class="details">2、3年以上手机游戏U3D或cocos2d-X开发经验，拥有完整的上线的手游开发经验优先；</p>
+				<p class="details">3、熟悉c++及C#、了解常用的脚本语言，熟悉网络协议；</p>
+				<p class="details">4、熟练使用cocos2d-X或者Unity3D引擎架构设计，制作场景、UI及脚本，精通UGUI/NGUI等；</p>
+				<p class="details">5、熟练掌握android和ios系统者优先；</p>
+				<p class="details">6、具有良好的分析解决问题能力，能独立承担任务，有系统进度把控能力；</p>
+				<p class="details">7、热爱游戏事业，富于团队精神和敬业精神。</p>
+			</div>
+		</div>
+	</div>
+	<div class="welfare box">
+		<img src="images/about/join-welfare-1.jpg" alt="">
+		<img src="images/about/join-welfare-2.jpg" alt="">
+		<img src="images/about/join-welfare-3.jpg" alt="">
+		<img src="images/about/join-welfare-4.jpg" alt="">
+		<img src="images/about/join-welfare-5.jpg" alt="">
+		<img src="images/about/join-welfare-6.jpg" alt="">
+	</div>
+	<div class="footer">
+		<div class="box">
+			<div class="link">
+				<a href="index.html">首页</a>
+				<a href="healthcare.html">产品中心</a>
+				<a href="news.html">新闻中心</a>
+				<a href="#">合作平台</a>
+				<a href="about.html">关于我们</a>
+			</div>
+			<div class="link">
+				<p>相关站点</p>
+				<a href="#">医药医Q网</a>
+				<a href="#">康美网络医疗</a>
+				<a href="#">抗癌365</a>
+			</div>
+			<div class="contact">
+				<p class="pos"><img src="images/footer-pos.png" alt=""><span>深圳市福田区深南大道1006号深圳国际创新中心A座8楼</span></p>
+				<p class="tel"><img src="images/footer-tel.png" alt=""><span>400 660 0518-1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0755-33910118</span></p>
+			</div>
+			<div class="qrcode"><img src="images/dingyuehao.jpg" alt=""><p>扫一扫，订阅号</p></div>
+			<div class="qrcode"><img src="images/fuwuhao.jpg" alt=""><p>扫一扫，服务号</p></div>
+		</div>
+		<p class="copyright">康美健康云 © 2015 版权所有 备案号：粤ICP备15086500号-2</p>
+	</div>
+</body>
+</html>

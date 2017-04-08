@@ -1,0 +1,104 @@
+.tumormanagement-1{
+	width: 100%;
+	min-width: 1200px;
+	height: 571px;
+	background-image: url(../images/tumormanagement/tumormanagement_02.png);
+	background-size: 100% 100%;
+}
+/* -------------------------------- */
+.tumormanagement-2{
+	width: 100%;
+	min-width: 1200px;
+	height: 440px;
+}
+.tumormanagement-2-content{
+	width: 1200px;
+	height: 340px;
+	margin: 0 auto;
+}
+.tumormanagement-2-content .p1{
+	font-size: 27px;
+	margin-top: 60px;
+	font-family: "JLX";
+}
+.tumormanagement-2-content .p2{
+	font-size: 18px;
+	margin: 20px 0px;
+	font-family: "FZCS"
+}
+.tumormanagement-2-content .p3{
+	font-size: 18px;
+	display: inline-block;
+	width: 157px;
+	margin: 0px 100px;
+	margin-top: 20px;
+}
+.tumormanagement-2-content .p3 img{
+	width: 157px;
+	height: 149px;
+	margin: 30px 0px;
+}
+/* -------------------------------- */
+.tumormanagement-3{
+	width: 100%;
+	min-width: 1200px;
+	height: 756px;
+	background-image: url(../images/tumormanagement/tumormanagement_13.png);
+	background-size: 100% 100%;
+}
+.tumormanagement-3-content{
+	width: 1200px;
+	margin: 0 auto;
+}
+.tumormanagement-3-content .content-side{
+	display: inline-block;
+	width: 160px;
+	vertical-align: top;
+	margin-top: 80px;
+}
+.tumormanagement-3-content .p1{
+	width: 160px;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 80px;
+}
+.tumormanagement-3-content .p1 img{
+	width: 150px;
+	height: 150px;
+	margin-bottom: 30px;
+}
+.tumormanagement-3-content .content-center{
+	display: inline-block;
+	width: 618px;
+	margin: 0px 80px;
+	margin-top: 50px;
+	font-family: "JLX";
+}
+.tumormanagement-3-content .p2{
+	width: 618px;
+	color: #fff;
+	font-size: 27px;
+}
+.tumormanagement-3-content .p2 img{
+	width: 618px;
+	height: 576px;
+	margin-top: 40px;
+}
+/* -------------------------------- */
+.tumormanagement-4{
+	width: 100%;
+	min-width: 1200px;
+	height: 493px;
+	background-image: url(../images/tumormanagement/tumormanagement_20.png);
+	background-size: 100% 100%;
+}
+.tumormanagement-4-content{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 45px;
+}
+.tumormanagement-4-content img{
+	width: 186px;
+	height: 186px;
+	margin: 10px 40px;
+}

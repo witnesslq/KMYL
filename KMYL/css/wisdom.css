@@ -1,0 +1,200 @@
+
+.wisdom-1{
+	width: 100%;
+	min-width: 1200px;
+	height: 570px;
+	background-image: url(../images/wisdom/wisdom_02.jpg);
+	background-size: 100% 100%;
+}
+/* -------------------------------- */
+.wisdom-2{
+	width: 100%;
+	min-width: 1200px;
+	height: 610px;
+}
+.wisdom-2-content{
+	width: 1200px;
+	margin: 0 auto;
+}
+.wisdom-2-content img{
+	width: 613px;
+	height: 510px;
+	margin: 50px 20px;
+}
+.wisdom-2-content-p{
+	display: inline-block;
+	width: 480px;
+	height: 510px;
+	margin-top: 50px;
+	vertical-align: top;
+	text-align: left;
+}
+.wisdom-2-content-p .p1{
+	font-size: 28px;
+	color: #666;
+	margin-top: 145px;
+	font-family: "JLX";
+}
+.wisdom-2-content-p .p2{
+	font-size: 18px;
+	color: #333;
+	margin: 40px 0px;
+	line-height: 30px;
+}
+.wisdom-2-content-p .p2 span{
+	font-size: 18px;
+	color: #2888e2;
+	margin: 0px 5px;
+}
+/* -------------------------------- */
+.wisdom-3{
+	width: 100%;
+	min-width: 1200px;
+	height: 613px;
+	background-color: #f7f7f7;
+}
+.wisdom-3-content{
+	width: 1200px;
+	height: 613px;
+	margin: 0 auto;
+	position: relative;
+}
+.wisdom-3-content img{
+	width: 734px;
+	height: 513px;
+	margin: 50px 40px;
+	float: right;
+}
+.wisdom-3-content-p{
+	display: inline-block;
+	width: 480px;
+	height: 513px;
+	vertical-align: top;
+	text-align: left;
+	position: absolute;
+	top: 100px;
+	left: 70px;
+}
+.wisdom-3-content-p .p1{
+	font-size: 28px;
+	color: #666;
+	margin-top: 145px;
+}
+.wisdom-3-content-p .p2{
+	font-size: 18px;
+	color: #333;
+	margin: 40px 0px;
+	line-height: 30px;
+}
+.wisdom-3-content-p .p2 span{
+	font-size: 18px;
+	color: #2888e2;
+	margin: 0px 5px;
+}
+/* -------------------------------- */
+.wisdom-4{
+	width: 100%;
+	min-width: 1200px;
+	height: 627px;
+}
+.wisdom-4-content{
+	width: 1200px;
+	margin: 0 auto;
+}
+.wisdom-4-content img{
+	width: 377px;
+	height: 527px;
+	margin: 50px 0px;
+	margin-left: 50px;
+}
+.wisdom-4-content-p{
+	display: inline-block;
+	width: 510px;
+	height: 527px;
+	margin-top: 50px;
+	margin-left: 150px;
+	vertical-align: top;
+	text-align: left;
+}
+.wisdom-4-content-p .p1{
+	font-size: 28px;
+	color: #666;
+	margin-top: 185px;
+}
+.wisdom-4-content-p .p2{
+	font-size: 18px;
+	color: #333;
+	margin: 40px 0px;
+	line-height: 30px;
+}
+/* -------------------------------- */
+.wisdom-5{
+	width: 100%;
+	min-width: 1200px;
+	height: 603px;
+	background-color: #f7f7f7;
+}
+.wisdom-5-content{
+	width: 1200px;
+	height: 603px;
+	margin: 0 auto;
+}
+.wisdom-5-content img{
+	width: 616px;
+	height: 503px;
+	margin: 50px 40px;
+}
+.wisdom-5-content-p{
+	display: inline-block;
+	width: 340px;
+	height: 503px;
+	vertical-align: top;
+	text-align: left;
+	margin-top: 40px;
+}
+.wisdom-5-content-p .p1{
+	font-size: 28px;
+	color: #666;
+	margin-top: 170px;
+}
+.wisdom-5-content-p .p2{
+	font-size: 18px;
+	color: #333;
+	margin: 40px 0px;
+	line-height: 30px;
+}
+/* -------------------------------- */
+.wisdom-6{
+	width: 100%;
+	min-width: 1200px;
+	height: 629px;
+}
+.wisdom-6-content{
+	width: 1200px;
+	margin: 0 auto;
+}
+.wisdom-6-content img{
+	width: 491px;
+	height: 529px;
+	margin: 50px 0px;
+}
+.wisdom-6-content-p{
+	display: inline-block;
+	width: 400px;
+	height: 527px;
+	margin-top: 50px;
+	margin-left: 150px;
+	vertical-align: top;
+	text-align: left;
+}
+.wisdom-6-content-p .p1{
+	font-size: 28px;
+	color: #666;
+	margin-top: 210px;
+}
+.wisdom-6-content-p .p2{
+	font-size: 18px;
+	color: #333;
+	margin: 40px 0px;
+	line-height: 30px;
+}

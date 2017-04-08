@@ -1,0 +1,395 @@
+
+html,body{
+	width: 100%;
+	min-height: 700px;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #ffffff;
+	background-color: #e9e9e9;
+}
+a{
+	text-decoration: none;
+	color: #ffffff;
+}
+li{
+	list-style: none;
+}
+a:hover{
+	opacity: 0.5;
+}
+/*------------------------*/
+/*富文本编辑器*/
+#contentMake{
+	height: 500px;
+	max-height: 1000px;
+	background-color: #D5D5D5;
+}
+
+/*------------------------*/
+.contentManager{
+	width: 1200px;
+	margin: 0 auto;
+}
+.left{
+	width: 360px;
+	height: 750px;
+	float: left;
+	background-color: #AEAEAE;
+	overflow: hidden;
+
+}
+.left-log img{
+	width: 360px;
+	height: 80px;
+}
+.left-user{
+	width: 360px;
+}
+.left-user img{
+	width: 82px;
+	float: left;
+	margin: 40px 20px;
+}
+.left-user p{
+	float: left;
+	margin: 68px 10px;
+	width: 200px;
+	text-overflow: ellipsis;
+}
+.left-user p span{
+	margin: 0px 10px;
+	color: #36993A;
+	display: inline-block;
+	width: 120px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.left-function{
+	width: 360px;
+	clear: both;
+}
+.left-func1,.left-func2{
+	width: 80px;
+	margin-left: 120px;
+	margin-top: 50px;
+}
+.left-function p{
+	width: 80px;
+	padding: 10px 100px 10px 180px;
+
+}
+.left-function-style{
+	background-color: #898B8D;
+}
+.right{
+	width: 830px;
+	margin-left: 370px;
+	padding-top: 50px;
+}
+.hint{
+	padding-top: 200px;
+	font-size: 23px;
+	color: #36993A;
+	width: 250px;
+	margin: 0 auto;
+}
+.right-content{
+	font-size: 23px;
+	width: 800px;
+	margin: 0px auto;
+
+}
+.right-add{
+	color: #000000;
+}
+.right-add a,.right-content-tip h4 span a{
+	text-align: center;
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 20px;
+	font-size: 16px;
+	background-color: #E42727;
+	border-radius: 5px;
+}
+.right-subpage{
+	width: 800px;
+}
+.right-content-left{
+	width: 350px;
+	height: 514px;
+	overflow: auto;
+	font-size: 20px;
+	float: left;
+	background-color: #22a3ab;
+	border-radius: 10px 0px 0px 10px;
+}
+.right-content-left ul{
+	width: 260px;
+	overflow: hidden;
+	margin: 10px auto;
+	padding: 0;
+}
+.right-content-left ul li{
+	width: 250px;
+	margin: 30px 0px;
+	clear: both;
+	background-color: #ACA7A7;
+	font-size: 12px;
+	padding: 10px;
+	cursor: pointer;
+}
+.right-content-left ul li span{
+	color: red;
+}
+.right-content-right{
+	width: 450px;
+	height: 514px;
+	overflow: auto;
+	float: left;
+	background-color: #292d30;
+	border-radius: 0px 10px 10px 0px;
+}
+.right-content-tip h4{
+	margin: 40px 0px 20px 70px;
+}
+.right-content-tip p{
+	width: 300px;
+	min-height: 40px;
+	line-height: 40px;
+	background-color: #434547;
+	font-size: 14px;
+	text-align: center;
+	margin: 20px 0px 20px 70px;
+}
+.right-content-tip h4 span a{
+	font-size: 14px;
+}
+.content-delete,.user-delete{
+	width: 300px;
+	height: 150px;
+	margin: 30px 0px 30px 70px;
+	background-color: #434547;
+}
+.content-delete p,.user-delete p{
+	font-size: 14px;
+}
+.delete1,.user-delete1{
+	text-align: center;
+	padding-top: 30px;
+}
+.user-delete2,.user-delete3{
+	width: 50px;
+	margin-left: 70px;
+	margin-top: 30px;
+	float: left;
+	height: 21px;
+	line-height: 21px;
+	border: 1px solid red;
+	text-align: center;
+}
+.delete2{
+width: 100px;
+margin-left: 100px;
+margin-top: 30px;
+height: 21px;
+	line-height: 21px;
+	border: 1px solid red;
+	text-align: center;
+}
+.delete2 a,.user-delete2 a{
+	color: red;
+}
+.user-delete3{
+	border: 1px solid #ffffff;
+}
+
+.right-case-fileup,.right-news-fileup{
+	font-size: 18px;
+	width: 800px;
+	margin: 0px auto;
+	margin-top: 60px;
+	background-color: #999999;
+	height: 500px;
+	overflow: auto;
+}
+.case-form1-first,.case-news1-first{
+	width: 600px;
+	padding: 50 0px;
+	padding-left: 180px;
+	position: relative;
+	
+}
+
+.case-form1-first p, .case-news1-first p{
+	width: 400px;
+	clear: both;
+	margin: 40px 0;
+	position: relative;
+}
+.case-form1-first p span, .case-news1-first p span{
+	position: absolute;
+	top: 10px;
+	right: -60px;
+	font-size: 13px;
+	color: #E41111;
+}
+
+.case-form1-first select,.case-news1-first select{
+	float: right;
+	width: 255px;
+	height: 35px;
+}
+.case-form1-first input,.case-news1-first input{
+	float: right;
+	width: 250px;
+	height: 30px;
+}
+.case-form1-first button, .case-news1-first button{
+	width: 80px;
+	height: 30px;
+	margin-left: 150px;
+	background-color: #cc3333;
+	border-radius: 5px;
+	border: none;
+	color: #ffffff;
+}
+/*--------------------------*/
+.button-con{
+	text-align: center;
+}
+.button-con button{
+	display: inline-block;
+	margin-left: 30px;
+}
+/*--------------------------*/
+/*预览*/
+.case-form1-show{
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width:100%;
+	background-color: rgba(0,0,0,0.9);
+	z-index: 10000;
+}
+.case-form1-show-detail{
+	width: 930px;
+	height: 600px;
+	margin: 30px auto;
+	overflow: auto;
+}
+/*--------------------------*/
+
+.right-manager{
+	font-size: 18px;
+	width: 800px;
+	padding-top: 40px;
+	margin: 0px auto;
+	margin-top: 100px;
+	background-color: #ffffff;
+	height: 460px;
+	
+}
+.table-message{
+	height: 400px;
+	overflow: auto;
+}
+table{
+	width: 700px;
+	margin: 0 auto;
+	border-spacing: 30px 30px;
+}
+th{
+	background-color: #333333;
+	padding: 10px 0px;
+	border-radius: 5px;
+}
+td{
+	border: 1px solid gray;
+	background-color: #e3e3e3;
+	padding: 10px 0px;
+	border-radius: 5px;
+	text-align: center;
+	color: #000000;
+}
+.table-delete{
+	background-color: #E42727;
+}
+.table-add{
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #e3e3e3;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+.table-add a{
+	color: #000000;
+}
+.table-suredelete,.user-add{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(255,255,255,0.5);
+	display: none;
+}
+.user-delete{
+	margin: 220px auto;
+	opacity: 0.9;
+}
+.user-add form{
+	background-color: #000000;
+	opacity: 0.7;
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 220px;
+	border-radius: 10px;
+}
+.user-add li{
+	width: 400px;
+	height: 50px;
+	clear: both;
+	
+}
+.user-add img,.user-add span,.user-add input{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	margin: 20px 15px;
+}
+.user-add span{
+	width: 60px;
+}
+.user-add input{
+	width: 200px;
+	background-color: #e3e3e3;
+	border-radius: 5px;
+}
+.user-add-sure,.user-add-cancel{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #e3e3e3;
+	text-align: center;
+	margin: 10px;
+	border-radius: 5px;
+	color: #000000;
+}
+.user-add-sure{
+	float: left;
+	margin-left: 70px;
+}
+.user-add-cancel{
+	float: right;
+	margin-right: 70px;
+}
+

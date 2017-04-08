@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>管理中心</title>
+    <link rel="stylesheet" type="text/css" href="css/wangEditor.css">
+    <link rel="stylesheet" type="text/css" href="css/content.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/wangEditor.min.js"></script>
+    <script type="text/javascript" src="js/content.js"></script>
+</head>
+
+<body>
+    <div class="contentManager">
+        <div class="left">
+            <div class="left-log">
+                <img src="images/logo.png">
+            </div>
+            <div class="left-user">
+                <img src="images/user-photo_03.png">
+                <p>管理者:<span>雷和超</span></p>
+            </div>
+            <div class="left-function left-function1">
+                <div class="left-func1">新闻动态</div>
+                <p><a href="javascript:void(0)">公司新闻</a></p>
+                <p><a href="javascript:void(0)">业界动态</a></p>
+                <p><a href="javascript:void(0)">媒体报道</a></p>
+                <p><a href="javascript:void(0)">视频新闻</a></p>
+            </div>
+            <div class="left-function left-function2">
+                <div class="left-func2">用户管理</div>
+                <p><a href="javascript:void(0)">添加</a></p>
+                <p><a href="javascript:void(0)">注销</a></p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="hint">
+                <p>康美医疗后台管理中心</p>
+            </div>
+            <!-- 显示内容详情 -->
+            <div class="right-content">
+                <div class="right-add">
+                    <p>新闻列表<span><a href="javascript:void(0)">上传</a></span></p>
+                </div>
+                <div class="right-subpage">
+                    <div class="right-content-left">
+                        <ul>
+                        </ul>
+                    </div>
+                    <div class="right-content-right">
+                        <div class="right-content-tip">
+                            <h4>详情</h4>
+                            <p>上传者</p>
+                            <p>上传时间</p>
+                            <p>简介ask撒到几点发货啊手机号加啊四啊是发hjfsdjfhsdhas说的话速度放缓金士顿就收到就好圣诞节发货及时的机会很多事会生纠纷</p>
+                            <h4>操作</h4>
+                        </div>
+                        <div class="content-delete">
+                            <p class="delete1">是否删除该信息</p>
+                            <p class="delete2"><a href="javascript:void(0)">yes</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 显示上传文章功能 -->
+            <div class="right-case-fileup">
+                <div class="case-form1-first">
+                    <form class="case-form-option">
+                        <p>文章分类
+                            <select id="selectID1">
+                                <option value="公司新闻">公司新闻</option>
+                                <option value="业界动态">业界动态</option>
+                                <option value="媒体报道">媒体报道</option>
+                            </select>
+                        </p>
+                        <p>标题
+                            <input type="text" class="title" name=""><span>*不能为空</span>
+                        </p>
+                        <p>简介
+                            <input type="text" class="subcontent" name=""><span>*不能为空</span>
+                        </p>
+                    </form>
+                    <form enctype="multipart/form-data" name="picture" class="case-form-file">
+                        <p>缩略图
+                            <input type="file" accept="image/*" name="picture" class="news1-file" value=""><span>*不能为空</span>
+                        </p>
+                    </form>
+                    <div style="width: 500px;">
+                        <div id="contentMake">
+                        </div>
+                    </div>
+                    <p class="button-con">
+                        <button type="button">预览</button>
+                        <button type="button">上传</button>
+                    </p>
+                </div>
+                <div class="case-form1-show">
+                    <div class="case-form1-show-detail">
+                    </div>
+                </div>
+            </div>
+            <!-- 显示上传视频功能 -->
+            <div class="right-news-fileup">
+                <div class="case-news1-first">
+                    <form class="case-news-option">
+                        <p>视频分类
+                            <select id="selectID2">
+                                <option value="视频新闻">视频新闻</option>
+                            </select>
+                        </p>
+                        <p>标题
+                            <input type="text" class="title" name=""><span>*不能为空</span></p>
+                        <p>地址
+                            <input type="text" class="URL" name=""><span>*不能为空</span></p>
+                        <p>简介
+                            <input type="text" class="subcontent" name=""><span>*不能为空</span></textarea>
+                        </p>
+                    </form>
+                    <form enctype="multipart/form-data" name="picture" class="case-news-file">
+                        <p>缩略图
+                            <input type="file" name="picture" class="news1-file" value=""><span>*不能为空</span>
+                        </p>
+                        <button type="button">上传</button>
+                    </form>
+                </div>
+            </div>
+            <!-- 显示添加/删除用户信息类功能 -->
+            <div class="right-manager">
+                <div class="table-message">
+                    <table>
+                        <tr>
+                            <th>用户名</th>
+                            <th>职位</th>
+                            <th>删除用户</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td class="table-delete"><a href="javascript:void(0)">删除</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="table-add">
+                    <a href="javascript:void(0)">添加用户</a>
+                </div>
+                <!-- 添加用户弹出框 -->
+                <div class="user-add">
+                    <form>
+                        <ul>
+                            <li><img src="images/permission-name_03.png"><span>用户名</span>
+                                <input class="user-add-name" type="text" name="1" value="">
+                            </li>
+                            <li><img src="images/permission-pass_03.png"><span>密码</span>
+                                <input class="user-add-pass" type="password" name="2" value="">
+                            </li>
+                            <li><img src="images/permission-type_03.png"><span>职位</span>
+                                <input class="user-add-type" type="text" name="3" value="">
+                            </li>
+                            <li><a href="javascript:void(0)" class="user-add-sure">确认</a><a href="javascript:void(0)" class="user-add-cancel">取消</a></li>
+                        </ul>
+                    </form>
+                </div>
+                <!-- 删除用户信息弹出框 -->
+                <div class="table-suredelete">
+                    <div class="user-delete">
+                        <p class="user-delete1">是否删除该用户?</p>
+                        <p class="user-delete2"><a href="javascript:void(0)">yes</a></p>
+                        <p class="user-delete3"><a href="javascript:void(0)">no</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

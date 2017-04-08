@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cqupt.dao.NewsMapper" >
+  
+  <select id="selectNewsClassByPage" resultType="cqupt.domain.News" parameterType="cqupt.domain.News">
+  	select * from `news` where newsclass=#{newsclass,jdbcType=VARCHAR}  limit #{id},5
+  </select>
+  
+  <delete id="delete"  parameterType="int">
+  delete  from `news` where id=#{id}
+  </delete>
+  
+  <select id="selectNewsClassAllSum" resultType="java.lang.Integer" >
+  	select count(*) from `news`
+  </select>
+  
+  <select id="selectNewsClass" parameterType="java.lang.String" resultType="cqupt.domain.News" >
+  	select id,title from `news` where newsclass=#{newsclass,jdbcType=VARCHAR}
+  </select>
+  
+  <select id="selectNewsBySign" parameterType="java.lang.Integer" resultType="cqupt.domain.News" >
+  	select id,url,newsclass from `news` where sign=#{sign,jdbcType=INTEGER} limit #{id},5
+  </select>
+  
+  <select id="selectNewsRand"  resultType="cqupt.domain.News" >
+  	SELECT * FROM `news`  ORDER BY  rand() limit 6
+  </select>
+  
+   <select id="selectNewsSum"  parameterType="java.lang.Integer" resultType="java.lang.Integer" >
+  	SELECT count(*) FROM `news`  where sign=#{sign,jdbcType=INTEGER}
+  </select>
+  
+  <select id="selectNewsClassSum"  parameterType="java.lang.String" resultType="java.lang.Integer" >
+  	SELECT count(*) FROM `news`  where newsclass=#{newsclass,jdbcType=VARCHAR}
+  </select>
+  
+  <select id="selectNewsInfo" resultType="cqupt.domain.News" parameterType="java.lang.Integer">
+  	select * from `news` where id=#{id,jdbcType=INTEGER}
+  </select>
+  
+   <select id="selectNewsInfoByTime" resultType="cqupt.domain.News" parameterType="java.lang.String">
+  	select * from `news` where time=#{time,jdbcType=VARCHAR}
+  </select>
+  
+  <insert id="insert" parameterType="cqupt.domain.News" >
+    insert into `news` (title,newsclass,username,time,content,sbcontent)
+    values (#{title,jdbcType=VARCHAR}, #{newsclass,jdbcType=VARCHAR},
+     #{username,jdbcType=VARCHAR}, #{time,jdbcType=VARCHAR},
+     #{content,jdbcType=VARCHAR},#{sbcontent,jdbcType=VARCHAR})
+  </insert>
+
+  <update id="update" parameterType="cqupt.domain.News" >
+    update `news`
+    <set >
+      <if test="username != null" >
+        username = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="newsclass != null" >
+        newsclass = #{newsclass,jdbcType=VARCHAR},
+      </if>
+      <if test="time != null" >
+        time = #{time,jdbcType=VARCHAR},
+      </if>	
+      <if test="content != null" >
+        time = #{content,jdbcType=VARCHAR},
+      </if>	
+      <if test="sbcontent != null" >
+        time = #{sbcontent,jdbcType=VARCHAR},
+      </if>	
+       <if test="url != null" >
+        url = #{url,jdbcType=VARCHAR}
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

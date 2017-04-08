@@ -1,0 +1,62 @@
+.contact-1{
+	width: 100%;
+	min-width: 1200px;
+	height: 400px;
+	background-image: url(../images/contact/contact_02.jpg);
+	background-size: 100% 100%;
+}
+/* -------------------------------- */
+.contact-2{
+	width: 300px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.contact-2-p1{
+	font-size: 27px;
+	color: #000;
+}
+.contact-2-p2{
+	margin: 15px 0px;
+}
+.contact-2-p2 img{
+	width: 244px;
+	height: 8px;
+}
+.contact-2-p3{
+	font-size: 16px;
+	color: #999;
+}
+/* -------------------------------- */
+.contact-3{
+	width: 1200px;
+	margin: 30px auto;
+}
+.contact-3-content{
+	position: relative;
+	width: 1075px;
+	height: 300px;
+	margin: 20px 0px;
+}
+.contact-3-content img{
+	width: 1075px;
+	height: 300px;
+}
+.contact-3-content-detail{
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	text-align: left;
+}
+.contact-3-content-detail .p1{
+	font-size: 23px;
+	color: #000;
+	margin: 40px 0px;
+}
+.contact-3-content-detail .p2{
+	font-size: 16px;
+	color: #333;
+	line-height: 25px;
+}
